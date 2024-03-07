@@ -1,0 +1,30 @@
+* {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.carrossel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carrossel-imagem {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease-in-out, visibility 1s ease-in-out; 
+}
+
+.carrossel-imagem.ativo {
+  opacity: 1;
+  visibility: visible;
+}
+
+.carrossel img {
+  width: 100%;
+  height: auto;
+}
+
+  
